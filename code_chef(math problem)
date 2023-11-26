@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int N,K;
+	    cin>>N;
+	    cin>>K;
+	    while(N>=K)
+	    {
+	    	N=N-K;
+		}
+		cout<<N<<endl;
+		
+	}
+	return 0;
+}
+
