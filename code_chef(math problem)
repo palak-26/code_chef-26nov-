@@ -11,7 +11,7 @@ int main() {
 	    cin>>K;
 	    while(N>=K)
 	    {
-	    	N=N-K;
+	    	N=N%K;
 		}
 		cout<<N<<endl;
 		
